@@ -2,7 +2,6 @@ var CIRCLE_RADIUS = 4;
 var MAX_THROTTLE = 1000;
 var mouse_down = false;
 $(function(ev) {
-    console.log("DOM fully loaded and parsed");
     $('#circle').css({width: CIRCLE_RADIUS * 2, height: CIRCLE_RADIUS * 2});
     $(document).mousemove(function(e) {
 	    if (mouse_down) {
@@ -29,7 +28,7 @@ function set_throttle(throttle) {
     } else if (throttle < -MAX_THROTTLE) {
 	throttle = -MAX_THROTTLE;
     }
-    console.log('set at', throttle);
+    console.log('throttle', throttle);
     var x = throttle_to_px(throttle);
     $('#circle').css({left: x - CIRCLE_RADIUS});
 };
@@ -45,3 +44,5 @@ function px_to_throttle(px) {
 function recenter(x, y) {
     set_throttle(0);
 };
+
+
