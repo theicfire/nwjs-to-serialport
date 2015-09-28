@@ -1,0 +1,13 @@
+#circle {
+	border-radius: 50%;
+	width: 10px;
+	height: 10px; 
+	background-color: red;
+	position: absolute;
+	/* width and height can be anything, as long as they're equal */
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
