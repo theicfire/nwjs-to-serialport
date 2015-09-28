@@ -1,13 +1,19 @@
 #circle {
 	border-radius: 50%;
-	width: 10px;
-	height: 10px; 
 	background-color: red;
 	position: absolute;
+	top: 2px;
 	/* width and height can be anything, as long as they're equal */
 }
 
 body {
 	margin: 0;
 	padding: 0;
+}
+
+#bordering {
+	width: 1000px;
+	height: 10px;
+	border: 1px solid;
+	margin-left: 100px;
 }
