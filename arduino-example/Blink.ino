@@ -1,11 +1,8 @@
-/*
-Uses a FOR loop for data and prints a number in various formats.
-*/
 char buffer[32];
 int idx = 0;
 
 void setup() {
-  Serial.begin(9600);      // open the serial port at 9600 bps:    
+  Serial.begin(9600);
   Serial.println("Start");
   buffer[0] = 'q';
 }
