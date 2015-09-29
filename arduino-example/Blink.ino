@@ -4,7 +4,6 @@ int idx = 0;
 void setup() {
   Serial.begin(9600);
   Serial.println("Start");
-  buffer[0] = 'q';
 }
 
 void loop() {
