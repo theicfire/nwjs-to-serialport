@@ -1,7 +1,7 @@
 {
-  "name": "Frameless Window",
+  "name": "throttlething",
   "description": "Chrome platform app.",
-  "version": "0.1",
+  "version": "0.0.1",
   "main": "index.html",
   "window": {
     "show": true,
