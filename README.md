@@ -19,7 +19,7 @@ Hopefully, `npm install serialport` will work. If it doesn't, here are some thin
 - serialport is a "3rd party modules with C/C++ addons". It mentions the solution is `nw-gyp`. Note it intends you to run the commands in `node_modules/serialport`. In my case, I got a `Undefined variable module_name in binding.gyp while trying to load binding.gyp` error.
 - The above error is fixed by this: https://github.com/nwjs/nw.js/wiki/build-native-modules-with-nw-gyp
   - But there's a new error about "Make" not working
-- Finally, here's the answer: I found to work https://github.com/nwjs/nw-gyp/issues/69
+- Finally, here's the answer I found works https://github.com/nwjs/nw-gyp/issues/69
 ```
 Here's the important part from the issue 69 above:
 
